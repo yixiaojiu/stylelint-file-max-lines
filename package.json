@@ -1,12 +1,17 @@
 {
   "name": "stylelint-file-max-lines",
   "version": "1.0.0",
-  "description": "",
+  "description": "Limit a maximum number of lines per file",
   "main": "./dist/index.js",
   "scripts": {
     "test": "vitest run",
     "build": "esbuild ./src/index.js --outfile=./dist/index.js --bundle --minify --platform=node --external:stylelint"
   },
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
