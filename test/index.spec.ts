@@ -8,7 +8,7 @@ function resolve(dir: string) {
 
 test('only max lines lint', async () => {
   const config: Config = {
-    plugins: [resolve('../dist/index.js')],
+    plugins: [resolve('../src/index.js')],
     rules: {
       'plugin/file-max-lines': 5,
     },
@@ -32,7 +32,7 @@ test('only max lines lint', async () => {
 
 test('ignore comments', async () => {
   const config: Config = {
-    plugins: [resolve('../dist/index.js')],
+    plugins: [resolve('../src/index.js')],
     rules: {
       'plugin/file-max-lines': [5, { ignore: 'comments' }],
     },
@@ -54,7 +54,7 @@ test('ignore comments', async () => {
 
 test('ignore blankLines', async () => {
   const config: Config = {
-    plugins: [resolve('../dist/index.js')],
+    plugins: [resolve('../src/index.js')],
     rules: {
       'plugin/file-max-lines': [5, { ignore: 'blankLines' }],
     },
