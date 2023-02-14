@@ -1,7 +1,5 @@
 name: CI
-on:
-  push:
-    branches: master
+on: [push]
 jobs:
   CI:
     runs-on: ubuntu-latest
@@ -23,7 +21,6 @@ jobs:
           key: ${{runner.OS}}-${{hashFiles('**/yarn.lock')}}
       - name: Installing Dependencies
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
-        run: pnpm install
-      - name: Running Lint
+        run: pnpm i
       - name: Running Test
         run: pnpm test
