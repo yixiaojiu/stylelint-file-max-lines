@@ -1,5 +1,8 @@
 # stylelint-file-max-lines
 
+[![NPM version](https://img.shields.io/npm/v/stylelint-z-index-value-constraint.svg)](https://img.shields.io/npm/v/stylelint-file-max-lines.svg)
+[![Build Status](https://github.com/yixiaojiu/stylelint-file-max-lines/workflows/CI/badge.svg)](https://github.com/yixiaojiu/stylelint-file-max-lines/actions)
+
 Stylelint rule for limiting a maximum number of lines per file.
 
 Please note that most editors show an additional empty line at the end if the file ends with a line break. This plugin does not count that extra line.
