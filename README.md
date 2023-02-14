@@ -1,6 +1,6 @@
 # stylelint-file-max-lines
 
-[![NPM version](https://img.shields.io/npm/v/stylelint-z-index-value-constraint.svg)](https://img.shields.io/npm/v/stylelint-file-max-lines.svg)
+[![NPM version](https://img.shields.io/npm/v/stylelint-file-max-lines.svg)](https://www.npmjs.com/package/stylelint-file-max-lines)
 [![Build Status](https://github.com/yixiaojiu/stylelint-file-max-lines/workflows/CI/badge.svg)](https://github.com/yixiaojiu/stylelint-file-max-lines/actions)
 
 Stylelint rule for limiting a maximum number of lines per file.
